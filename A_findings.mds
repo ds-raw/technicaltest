@@ -1,0 +1,9 @@
+## Anomaly Findings on `decoy_noise`
+
+detected two anomalies:
+
+1. 137 records where `decoy_noise` deviates by more than 100 units from `payment_value`.
+
+2. 1006 records have decoy_noise values >400, which may be synthetic noise or erroneous values.
+
+Further investigation is recommended.
